@@ -1,0 +1,107 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main {
+  width: 350px;
+  height: 100vh;
+  margin-top: 150px;
+}
+
+header {
+  text-align: center;
+  height: 220px;
+  width: 340px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+p,
+h3 {
+  margin: 0;
+}
+.fw400 {
+  font-weight: 400;
+}
+.fw600 {
+  font-weight: 600;
+}
+.fw200 {
+  font-weight: 200;
+}
+.fs25 {
+  font-size: 25px;
+}
+.fs15 {
+  font-size: 15px;
+}
+
+.light-grey {
+  color: hsl(229, 6%, 66%);
+}
+.dark-grey {
+  color: hsl(234, 12%, 34%);
+}
+header p:nth-child(3) {
+  margin-top: 15px;
+}
+
+.divs {
+  height: 220px;
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 hsl(0, 7%, 92%), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px 10px 0 0;
+}
+
+#supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+#team {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+#karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+#calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+  margin-bottom: 100px;
+}
+
+img {
+  margin: 80px 0 0 220px;
+}
+.fs20 {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    width: 70%;
+  }
+  header {
+    width: 500px;
+    margin-bottom: 100px;
+    margin-left: 280px;
+  }
+  section {
+    flex-direction: row;
+  }
+  #supervisor {
+    margin-right: 30px;
+  }
+  #tk {
+    margin-top: -150px;
+  }
+
+  #calculator {
+    margin-left: 30px;
+  }
+}
